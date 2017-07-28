@@ -7,11 +7,6 @@
     android:orientation="vertical"
     tools:context="sg.edu.rp.c347.demoaddon.MainActivity">
 
-    <ImageView
-        android:id="@+id/iv"
-        android:layout_width="300dp"
-        android:layout_height="300dp"/>
-
     <com.jsibbold.zoomage.ZoomageView
         android:id="@+id/myZoomageView"
         android:layout_width="match_parent"

@@ -4,7 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-//import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Picasso;
+
 
 public class MainActivity extends AppCompatActivity {
     ImageView iv;
@@ -14,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        iv = (ImageView) findViewById(R.id.iv);
+        iv = (ImageView) findViewById(R.id.myZoomageView);
 
         //use picasso
-//        String imageUrl = "http://square.github.io/picasso/static/sample.png";
-//        Picasso.with(this).load(imageUrl).into(iv);
+        String imageUrl = "http://square.github.io/picasso/static/sample.png";
+        Picasso.with(this).load(imageUrl).into(iv);
     }
 }
